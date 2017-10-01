@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static org.omg.IOP.TAG_ORB_TYPE.value;
+
 
 
 /**
@@ -14,12 +14,12 @@ public class Artist {
 
     private String artistName;
     private int artistID;
-    private int price;
+    private int value;
 
     public Artist(int ID, String artist) {
         artistID = ID;
         artistName = artist;
-        price = value;
+       // this.value = value;
     } // end constructor
 
     public Artist() {
